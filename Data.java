@@ -68,7 +68,7 @@ public class Data
                     do{
                         System.out.print("Digite o ano: ");
                         ano = ler.nextInt();
-                    }while(ano < 0 || ano > 12);
+                    }while(ano < 0);
                     break;
                 }
                 catch(Exception e){
